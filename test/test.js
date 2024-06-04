@@ -4,7 +4,6 @@ const { exec } = require("child_process");
 const { spawn } = require("child_process");
 const path = require('node:path');
 const FooEtAlParameterization = require("../src/FooEtAlParameterization");
-const { error } = require("console");
 
 describe('FooEtAlParameterization', function(){
     it('should return the correct volume of the sphere which is 33.51032 with a radius of 2', function() {
