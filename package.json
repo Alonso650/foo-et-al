@@ -1,0 +1,21 @@
+{
+  "name": "foo-et-al-parameterization",
+  "version": "1.0.0",
+  "description": "A package used to calculate the volume of a sphere using Foo et al parameterization",
+  "main": "src/FooEtAlParameterization.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Hector Alonzo-Torres",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alonso650/foo-et-al.git"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "*"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
+}
